@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail Informasi Pendaftar</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+        }
+        .box {
+            width: 40%;
+            padding: 10px;
+        }
+        table {
+            width: 100%;
+            border: solid 1pt black;
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+        th, td {
+            border: solid 1pt black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+            text-align: center;
+        }
+
+        tr:nth-child(even) {
+            background-color: rgba(255, 145, 77, 0.2);
+        }
+
+        tr:hover {
+            background-color: #f0f7ff;
+            transition: background-color 0.3s;
+        }
+
+        #submit-button {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <form action="index.html" method="get">
+                <table>
+                    <thead>
+                        <tr>
+                            <th colspan="2">Detail Informasi Pendaftar</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Nama</td>
+                            <td>Roy Kurniawan</td>
+                        </tr>
+                        <tr>
+                            <td>NIM</td>
+                            <td>124140024</td>
+                        </tr>
+                        <tr>
+                            <td>Email</td>
+                            <td>roy.124140024@student.itera.ac.id</td>
+                        </tr>
+                        <tr>
+                            <td>Program Studi</td>
+                            <td>Teknik Informatika</td>
+                        </tr>
+                        <tr>
+                            <td>Jenis Kelamin</td>
+                            <td>Laki-laki</td>
+                        </tr>
+                        <tr>
+                            <td>Hobi</td>
+                            <td>Olahraga</td>
+                        </tr>
+                        <tr>
+                            <td>Tanggal Lahir</td>
+                            <td>2005-06-22</td>
+                        </tr>
+                        <tr>
+                            <td>Alamat</td>
+                            <td>Kontrakan Pak Supri</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" id="submit-button">
+                                <button type="submit">Kembali</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
